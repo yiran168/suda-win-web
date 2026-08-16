@@ -1,5 +1,7 @@
 # 素打 · Qrint Studio
 
+**简体中文** | [English](README_EN.md)
+
 错题小印系列 58mm 蓝牙热敏打印机的**桌面客户端 + 网页版**，同时兼容 ESC/POS 通用协议的公模热敏打印机。
 
 用 React + TypeScript 从零编写，Electron 打包为 Windows 安装程序。
