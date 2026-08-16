@@ -4,6 +4,17 @@
 
 Electron 桌面客户端 + 浏览器网页版双形态，同一套 React + TypeScript 内核。
 
+## 致谢
+
+**本项目基于 [Thisko/QrintPrint](https://github.com/Thisko/QrintPrint) 移植重写。** QrintPrint 是错题小印（Qring / BeePrt BY 系）58mm 蓝牙热敏打印机的开源客户端，作者 [@Thisko](https://github.com/Thisko) 用 ArkTS 从零编写了原生 HarmonyOS 版本，并通过对官方 App 的分析整理出了完整的 Qring 私有协议（状态位、电量、浓度、走纸、光栅下发）。没有这份开源实现，就没有素打 —— 特此致谢，也欢迎大家去给上游项目点 Star ⭐
+
+开发过程中还参考了这些社区实现，一并感谢：
+
+- [ZhaYi-Miao/QrintPrint-Web-Console](https://github.com/ZhaYi-Miao/QrintPrint-Web-Console) — 网页控制台与 BLE 通道探索
+- [Thisko/QringPrint-Web](https://github.com/Thisko/QringPrint-Web) — Web 端实现
+- [snowboys/QrintPrint-Windows](https://github.com/snowboys/QrintPrint-Windows) — Windows 端 USB 方案参考
+- [tanadiejiang/pocket_print](https://github.com/tanadiejiang/pocket_print) — 口袋打印机相关实现
+
 ## 功能
 
 - **画布编辑器**：文字 / 图片 / 二维码（16 种内容预设）/ 条码（19 种码制）/ 形状（24 种）/ 表格 / 日期时间 / 流水号 / 手绘，九类元素；旋转、多选整体对齐与旋转、磁吸参考线、八向缩放手柄；任意元素可**反色**（黑底白字）；文字支持 5 种打印增强算法（补偿部分机型浓度指令不生效）
