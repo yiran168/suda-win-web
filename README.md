@@ -8,8 +8,8 @@
 
 不想自己构建？直接在 [Releases](../../releases/latest) 下载：
 
-- **素打-安装程序.exe** —— Windows 安装程序（推荐）
-- **素打-便携版.zip** —— 解压即用，不写注册表
+- **SuDa-Setup-v1.0.0.exe** —— Windows 安装程序（推荐）
+- **SuDa-Portable-v1.0.0.zip** —— 便携版，解压即用，不写注册表
 
 ## 这是什么
 
