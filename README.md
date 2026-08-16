@@ -11,6 +11,18 @@
 - **SuDa-Setup-v1.0.0.exe** —— Windows 安装程序（推荐）
 - **SuDa-Portable-v1.0.0.zip** —— 便携版，解压即用，不写注册表
 
+## 使用
+
+**桌面端**：安装后打开素打 → 先在 Windows 蓝牙设置里配对打印机（配对后会生成"传出方向"的 COM 口）→ 首页点「连接」选对应 COM 口 → 开始创作。
+
+**网页版**（无需安装，浏览器直接打印）：
+
+1. 克隆仓库后 `npm install && npm run dev`（或部署到任意 HTTPS 静态托管，如 GitHub Pages）
+2. 用 **Chrome / Edge** 打开 `http://localhost:7100`（Web Serial API 仅在 localhost 或 HTTPS 环境可用；Firefox / Safari 不支持）
+3. 同样先在 Windows 蓝牙设置里完成打印机配对
+4. 首页点「连接」→ 在浏览器弹出的串口选择器中点中打印机对应的端口 → 授权
+5. 连接成功后功能与桌面端完全一致（同一套代码内核）；授权过的端口下次打开可直接重连
+
 ## 这是什么
 
 错题小印（Qring / BeePrt BY 系列）是一款 58mm 蓝牙热敏打印机，多用于错题、便签、标签打印。官方 App 服务器已经扑街，上游开源了手机端，而桌面上一直没有好用的客户端 —— 于是有了素打。
@@ -154,4 +166,4 @@ MIT License
 
 ---
 
-Made with ❤️ by **Kimi K3** —— 本项目由 Kimi K3 全程完成开发。
+Made with ❤️ by **yiran168 & Kimi K3** —— 本项目由 yiran168 与 Kimi K3 共同开发。
