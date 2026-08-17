@@ -1,5 +1,7 @@
 # 素打 · Qrint Studio
 
+**Web 端（在线使用）**：<https://yiran168.github.io/suda-win-web/> —— 无需安装，浏览器直接打印；仅支持 **Chrome / Edge**（Firefox / Safari 不支持 Web Serial）
+
 **简体中文** | [English](README_EN.md)
 
 错题小印系列 58mm 蓝牙热敏打印机的**桌面客户端 + 网页版**，同时兼容 ESC/POS 通用协议的公模热敏打印机。
