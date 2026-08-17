@@ -1,5 +1,7 @@
 # SuDa · Qrint Studio
 
+**Web app (use online)**: <https://yiran168.github.io/suda-win-web/> — no installation, print straight from the browser; **Chrome / Edge** only (Firefox / Safari don't support Web Serial)
+
 [简体中文](README.md) | **English**
 
 A **desktop client + web app** for the Qring / BeePrt BY-series 58mm Bluetooth thermal printers (a.k.a. 错题小印), also compatible with generic ESC/POS thermal printers.
